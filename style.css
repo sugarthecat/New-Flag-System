@@ -1,0 +1,20 @@
+div#majorflag canvas {
+    width: 600px;
+    height: 400px;
+}
+div#variants canvas{
+    width: 300px;
+    height:200px;
+}
+div#variants{
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    background-color: #000000;
+    padding: 10px;
+  }
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
